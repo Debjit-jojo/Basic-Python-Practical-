@@ -1,5 +1,5 @@
 # Basic Python code 
-1. Simple Bill Calculator 
+**1. Simple Bill Calculator **
 print("----- Electricity Bill Calculator -----")
 
 try:
@@ -24,6 +24,9 @@ try:
 
 except ValueError:
     print("Invalid input! Please enter numeric units only.")
+
+
+**2. Restuarent Bill **
 
     tea_count = 0
 coffee_count = 0
