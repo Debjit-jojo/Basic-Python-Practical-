@@ -1,5 +1,5 @@
 # Basic Python code 
-**1. Simple Bill Calculator **
+**1. Simple Bill Calculator**
 print("----- Electricity Bill Calculator -----")
 
 try:
@@ -26,7 +26,7 @@ except ValueError:
     print("Invalid input! Please enter numeric units only.")
 
 
-**2. Restuarent Bill **
+**2. Restuarent Bil**l
 
     tea_count = 0
 coffee_count = 0
@@ -78,3 +78,43 @@ while True:
 
     else:
         print("Enter Correct Choice")
+
+**3. Traffic Signal Program**
+
+def traffic_signal():
+    print("Welcome to the Traffic Signal Simulation Program")
+    print("------------------------------------------------")
+    print("You can choose one of the following options:")
+    print("1. red    -> Stop")
+    print("2. green  -> Go")
+    print("3. orange -> Ready")
+    print("Type 'exit' to quit the program.")
+    print("------------------------------------------------")
+
+    while True:
+        # Taking user input
+        ch = input("Enter your choice (red/green/orange/exit): ").lower()
+
+        # Decision making based on input
+        if ch == "red":
+            print("The signal is RED. Please stop your vehicle immediately.")
+            print("Stopping ensures safety for pedestrians and other vehicles.")
+            print("------------------------------------------------")
+        elif ch == "green":
+            print("The signal is GREEN. You may go ahead safely.")
+            print("Always check both sides before moving forward.")
+            print("------------------------------------------------")
+        elif ch == "orange":
+            print("The signal is ORANGE. Be ready to move, but proceed with caution.")
+            print("Orange means the signal is about to change, so stay alert.")
+            print("------------------------------------------------")
+        elif ch == "exit":
+            print("Exiting the Traffic Signal Simulation Program.")
+            print("Thank you for using it. Drive safely!")
+            break
+        else:
+            print("Invalid choice entered.")
+            print("Please enter either 'red', 'green', 'orange', or 'exit'.")
+            print("------------------------------------------------")
+
+        
