@@ -1,4 +1,5 @@
 # Basic Python code 
+**This are the basic code for Learning the basic function of class and identifiers of the java script**
 **1. Simple Bill Calculator**
 print("----- Electricity Bill Calculator -----")
 
