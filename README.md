@@ -118,7 +118,7 @@ def traffic_signal():
             print("Please enter either 'red', 'green', 'orange', or 'exit'.")
             print("------------------------------------------------")
 
-**4. Storing Details of a student**
+**4. Storing Details of a student in a registration form**
 
 print("----- Student Registration Form -----")
 
