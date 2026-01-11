@@ -118,4 +118,25 @@ def traffic_signal():
             print("Please enter either 'red', 'green', 'orange', or 'exit'.")
             print("------------------------------------------------")
 
+**4. Storing Details of a student**
+
+print("----- Student Registration Form -----")
+
+name = input("Enter Student Name: ")
+roll_no = input("Enter Roll Number: ")
+age = input("Enter Age: ")
+gender = input("Enter Gender: ")
+course = input("Enter Course Name: ")
+mobile = input("Enter Mobile Number: ")
+
+print("\n----- Student Details -----")
+print("Name      :", name)
+print("Roll No   :", roll_no)
+print("Age       :", age)
+print("Gender    :", gender)
+print("Course    :", course)
+print("Mobile No :", mobile)
+
+print("\nRegistration Successful")
+
         
