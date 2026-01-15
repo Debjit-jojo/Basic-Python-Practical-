@@ -140,7 +140,7 @@ print("Mobile No :", mobile)
 print("\nRegistration Successful")
 
 **5 Basic code of python to gerate student marksheet**
-
+print(-----Students Marksheet-----)
 name = input("Name: ")
 dep = input("Department: ")
 yr = input("Year: ")
