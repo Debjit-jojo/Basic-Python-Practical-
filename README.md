@@ -139,4 +139,39 @@ print("Mobile No :", mobile)
 
 print("\nRegistration Successful")
 
+**5 Basic code of python to gerate student marksheet**
+
+name = input("Name: ")
+dep = input("Department: ")
+yr = input("Year: ")
+sem = input("Semester: ")
+sec = input("Section: ")
+roll = input("Roll Number: ")
+
+s1 = float(input("Enter marks for subject 1: "))
+s2 = float(input("Enter marks for subject 2: "))
+s3 = float(input("Enter marks for subject 3: "))
+s4 = float(input("Enter marks for subject 4: "))
+s5 = float(input("Enter marks for subject 5: "))
+
+print("STUDENT MARKSHEET")
+print("Name:", name)
+print("Department:", dep)
+print("Year:", yr)
+print("Semester:", sem)
+print("Section:", sec)
+print("Roll Number:", roll)
+
+print("Subject 1 Marks:", s1)
+print("Subject 2 Marks:", s2)
+print("Subject 3 Marks:", s3)
+print("Subject 4 Marks:", s4)
+print("Subject 5 Marks:", s5)
+
+total = s1 + s2 + s3 + s4 + s5
+per = total / 5
+
+print("Total Marks:", float(total))
+print(f"Percentage: {per:.2f}%")
+
         
