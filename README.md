@@ -121,6 +121,7 @@ def traffic_signal():
 
 **4. Storing Details of a student in a registration form**
 
+
 print("----- Student Registration Form -----")
 
 name = input("Enter Student Name: ")
@@ -141,6 +142,7 @@ print("Mobile No :", mobile)
 print("\nRegistration Successful")
 
 **5 Basic code of python to gerate student marksheet**
+
 print(-----Students Marksheet-----)
 name = input("Name: ")
 dep = input("Department: ")
