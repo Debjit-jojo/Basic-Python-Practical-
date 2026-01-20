@@ -175,4 +175,30 @@ per = total / 5
 print("Total Marks:", float(total))
 print(f"Percentage: {per:.2f}%")
 
+6 Basic code for tempreture
+
+print("Temperature Classification Program")
+print("----------------------------------")
+
+try:
+    temperature = float(input("Enter temperature in degree Celsius: "))
+
+    if temperature < -273.15:
+        print("Invalid temperature: below absolute zero")
+    elif temperature == -273.15:
+        print("Temperature is absolute zero")
+    elif temperature == 0:
+        print("Temperature is at the freezing point")
+    elif temperature < 0:
+        print("Temperature is below freezing")
+    elif 0 < temperature < 100:
+        print("Temperature is in the normal range")
+    elif temperature == 100:
+        print("Temperature is at the boiling point")
+    else:
+        print("Temperature is above the boiling point")
+
+except ValueError:
+    print("Please enter a valid numeric value for temperature.")
+
         
