@@ -175,7 +175,7 @@ per = total / 5
 print("Total Marks:", float(total))
 print(f"Percentage: {per:.2f}%")
 
-6 Basic code for tempreture
+**6 Basic code for tempreture classification**
 
 print("Temperature Classification Program")
 print("----------------------------------")
