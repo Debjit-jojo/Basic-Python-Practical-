@@ -3,7 +3,7 @@ This are the basic code for Learning the basic function of class and identifiers
 By this codes we will get the practical knowledge of the java script
 
 
-**1. Simple Bill Calculator**
+# 1. Simple Bill Calculator
 
 print("----- Electricity Bill Calculator -----")
 
@@ -31,7 +31,7 @@ except ValueError:
     print("Invalid input! Please enter numeric units only.")
 
 
-**2. Restuarent Bil**l
+# 2. Restuarent Bill
 
     tea_count = 0
 coffee_count = 0
@@ -86,7 +86,7 @@ while True:
 
 
 
-**3. Traffic Signal Program**
+# 3. Traffic Signal Program
 
 def traffic_signal():
     print("Welcome to the Traffic Signal Simulation Program")
@@ -126,7 +126,7 @@ def traffic_signal():
 
 
 
-**4. Storing Details of a student in a registration form**
+# 4. Storing Details of a student in a registration form
 
 
 print("----- Student Registration Form -----")
@@ -150,7 +150,7 @@ print("\nRegistration Successful")
 
 
 
-**5 Basic code of python to gerate student marksheet**
+# 5 Basic code of python to gerate student marksheet
 
 print(-----Students Marksheet-----)
 name = input("Name: ")
@@ -188,7 +188,7 @@ print(f"Percentage: {per:.2f}%")
 
 
 
-**6 Basic code for tempreture classification**
+# 6 Basic code for tempreture classification
 
 print("Temperature Classification Program")
 print("----------------------------------")
@@ -216,7 +216,7 @@ except ValueError:
 
 
 
-**#Python Practical Codes**
+# Python Practical Codes
 
 1.
    i = 1
