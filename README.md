@@ -84,6 +84,8 @@ while True:
     else:
         print("Enter Correct Choice")
 
+
+
 **3. Traffic Signal Program**
 
 def traffic_signal():
@@ -122,6 +124,8 @@ def traffic_signal():
             print("Please enter either 'red', 'green', 'orange', or 'exit'.")
             print("------------------------------------------------")
 
+
+
 **4. Storing Details of a student in a registration form**
 
 
@@ -143,6 +147,8 @@ print("Course    :", course)
 print("Mobile No :", mobile)
 
 print("\nRegistration Successful")
+
+
 
 **5 Basic code of python to gerate student marksheet**
 
@@ -180,6 +186,8 @@ per = total / 5
 print("Total Marks:", float(total))
 print(f"Percentage: {per:.2f}%")
 
+
+
 **6 Basic code for tempreture classification**
 
 print("Temperature Classification Program")
@@ -205,6 +213,7 @@ try:
 
 except ValueError:
     print("Please enter a valid numeric value for temperature.")
+
 
 
 **#Python Practical Codes**
