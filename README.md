@@ -206,4 +206,41 @@ try:
 except ValueError:
     print("Please enter a valid numeric value for temperature.")
 
-        
+
+**#Python Practical Codes**
+
+1.
+   i = 1
+while i <= 20:
+    print("Hello Students")
+    i += 1
+
+2.
+    n = int(input("Enter a number: "))
+i = 1
+total = 0
+
+while i <= n:
+    total += i
+    i += 1
+
+print("Sum =", total)
+
+
+3.
+   num = int(input("Enter a number: "))
+temp = num
+total = 0
+
+while temp != 0:
+    rem = temp % 10
+    total += rem ** 3
+    temp //= 10
+
+if total == num:
+    print("Armstrong Number")
+else:
+    print("Not an Armstrong Number")
+
+
+
