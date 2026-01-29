@@ -216,7 +216,7 @@ except ValueError:
 
 
 
-# Python Practical Codes
+# Python Basic Practical Codes
 
 # 1.
 i = 1
