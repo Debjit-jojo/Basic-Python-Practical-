@@ -219,13 +219,13 @@ except ValueError:
 # Python Practical Codes
 
 # 1.
-   i = 1
+i = 1
 while i <= 20:
     print("Hello Students")
     i += 1
 
 # 2.
-    n = int(input("Enter a number: "))
+n = int(input("Enter a number: "))
 i = 1
 total = 0
 
@@ -237,7 +237,7 @@ print("Sum =", total)
 
 
 # 3.
-   num = int(input("Enter a number: "))
+num = int(input("Enter a number: "))
 temp = num
 total = 0
 
@@ -253,10 +253,10 @@ else:
 
 
 # 4.
-    n = int(input("Enter a number: "))
+n = int(input("Enter a number: "))
 
 for i in range(1, 11):
-    print(n, "x", i, "=", n * i)
+ print(n, "x", i, "=", n * i)
 
 
 
