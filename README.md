@@ -218,13 +218,13 @@ except ValueError:
 
 # Python Practical Codes
 
-1.
+# 1.
    i = 1
 while i <= 20:
     print("Hello Students")
     i += 1
 
-2.
+# 2.
     n = int(input("Enter a number: "))
 i = 1
 total = 0
@@ -236,7 +236,7 @@ while i <= n:
 print("Sum =", total)
 
 
-3.
+# 3.
    num = int(input("Enter a number: "))
 temp = num
 total = 0
@@ -252,7 +252,7 @@ else:
     print("Not an Armstrong Number")
 
 
-4.
+# 4.
     n = int(input("Enter a number: "))
 
 for i in range(1, 11):
