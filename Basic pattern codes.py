@@ -36,6 +36,33 @@ for i in range(1, n + 1):
     for j in range(1, i + 1):
         print(j, end=" ")
     print()
+
+
+# Python Codes for making matrix
+
+import numpy as np
+
+# Input 5x3 matrix
+print("Enter elements of 5x3 matrix:")
+matrix1 = np.array([[int(input()) for j in range(3)] for i in range(5)])
+
+# Input 3x2 matrix
+print("Enter elements of 3x2 matrix:")
+matrix2 = np.array([[int(input()) for j in range(2)] for i in range(3)])
+
+print("\nMatrix 1 (5x3):")
+print(matrix1)
+
+print("\nMatrix 2 (3x2):")
+print(matrix2)
+
+# Matrix multiplication
+product = np.dot(matrix1, matrix2)
+
+print("\nProduct Matrix (5x2):")
+print(product)
+
     
+
 
 
