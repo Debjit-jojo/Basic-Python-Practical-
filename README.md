@@ -25,7 +25,7 @@ try:
 except ValueError:
     print("Invalid input! Please enter numeric units only.")
 
- # 2. Restuarent Bill
+ # 2. Restuarent Bill Format
 
     tea_count = 0
 coffee_count = 0
