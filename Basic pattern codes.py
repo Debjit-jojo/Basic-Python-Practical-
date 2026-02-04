@@ -61,8 +61,10 @@ product = np.dot(matrix1, matrix2)
 
 print("\nProduct Matrix (5x2):")
 print(product)
+print(product)
 
     
+
 
 
 
