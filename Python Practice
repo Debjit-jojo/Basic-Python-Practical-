@@ -217,6 +217,7 @@ except ValueError:
 
 
 # Python Basic Practical Codes
+This are the basic python codes for concept undersatnding
 
 # 1.
 i = 1
