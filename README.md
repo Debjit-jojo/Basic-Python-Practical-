@@ -78,3 +78,6 @@ while True:
     else:
         print("Enter Correct Choice")
 
+# 3 
+Traffic Signal operator 
+
