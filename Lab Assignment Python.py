@@ -76,4 +76,5 @@ if len(prices) > 0:
     count = prices.count(costliest)
     print("Number of costliest items sold:", count)
 else:
+
     print("No items sold")
