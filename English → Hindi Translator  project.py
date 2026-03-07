@@ -126,4 +126,5 @@ display(subtitle)
 display(english_input)
 display(button_box)
 display(output)
+
 display(history_box)
