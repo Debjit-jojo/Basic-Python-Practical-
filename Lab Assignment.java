@@ -1,4 +1,4 @@
-Employee → Manager (Simple Code) 
+Employee → Manager (Simple Code)
 
 import java.util.*;
 
