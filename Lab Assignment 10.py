@@ -43,9 +43,9 @@ for b in sorted_books:
     print(b["title"], "-", b["year"])
 
 
-#2 
 
-# Information about 5 states
+
+#2 Information about 5 states
 
 states = [
     {"name": "Maharashtra", "area": 307713, "capital": "Mumbai"},
