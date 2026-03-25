@@ -1,0 +1,108 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# -------------------- LAB ASSIGNMENT 1 --------------------
+
+# Sample cosmetic sales data
+months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+facecream = [2500,2630,2140,3400,3600,2760,2980,3700,3540,1990,2340,2900]
+facewash  = [1500,1200,1340,1130,1740,1555,1120,1650,1450,1980,1760,1550]
+toothpaste= [5200,5100,4550,5870,6000,5250,5400,6100,6000,5200,5300,5800]
+bathingsoap=[9200,9100,9550,8870,9000,9550,9300,9800,9900,9000,9100,9400]
+
+# Total profit (dummy values)
+profit = [211000,183300,224700,256000,298000,245000,267000,312000,290000,250000,270000,300000]
+
+# a) Line plot of total profit
+plt.figure()
+plt.plot(months, profit, marker='o')
+plt.title("Total Profit per Month")
+plt.xlabel("Months")
+plt.ylabel("Profit")
+plt.grid()
+plt.show()
+
+# b) Multiline plot for all product sales
+plt.figure()
+plt.plot(months, facecream, label='Face Cream')
+plt.plot(months, facewash, label='Face Wash')
+plt.plot(months, toothpaste, label='Toothpaste')
+plt.plot(months, bathingsoap, label='Bathing Soap')
+plt.title("Product Sales Data")
+plt.xlabel("Months")
+plt.ylabel("Units Sold")
+plt.legend()
+plt.grid()
+plt.show()
+
+# c) Bar chart for face cream & face wash
+x = np.arange(len(months))
+width = 0.35
+plt.figure()
+plt.bar(x - width/2, facecream, width, label='Face Cream')
+plt.bar(x + width/2, facewash, width, label='Face Wash')
+plt.xticks(x, months)
+plt.title("Face Cream vs Face Wash Sales")
+plt.xlabel("Months")
+plt.ylabel("Units Sold")
+plt.legend()
+plt.show()
+
+# d) Pie chart for total yearly sales per product
+total_sales = [
+    sum(facecream),
+    sum(facewash),
+    sum(toothpaste),
+    sum(bathingsoap)
+]
+labels = ['Face Cream','Face Wash','Toothpaste','Bathing Soap']
+
+plt.figure()
+plt.pie(total_sales, labels=labels, autopct='%1.1f%%')
+plt.title("Total Sales Distribution")
+plt.show()
+
+
+# -------------------- LAB ASSIGNMENT 2 --------------------
+
+# Recruitment dataset (sample)
+companies = ['Microsoft','Google','Amazon','IBM','Deloitte','Capgemini','Amdocs']
+recruitments = [120,150,180,100,90,110,95]
+
+# a) Bar chart
+plt.figure()
+plt.bar(companies, recruitments)
+plt.title("Company Recruitment Data")
+plt.xticks(rotation=30)
+plt.ylabel("No. of Hires")
+plt.show()
+
+# b) Pie chart
+plt.figure()
+plt.pie(recruitments, labels=companies, autopct='%1.1f%%')
+plt.title("Recruitment Distribution")
+plt.show()
+
+# c) Customized Pie chart
+plt.figure()
+plt.pie(recruitments, labels=companies, autopct='%1.1f%%',
+        startangle=90, shadow=True)
+plt.title("Customized Pie Chart")
+plt.show()
+
+# d) Doughnut chart
+plt.figure()
+plt.pie(recruitments, labels=companies, autopct='%1.1f%%')
+centre_circle = plt.Circle((0,0),0.70,fc='white')
+fig = plt.gcf()
+fig.gca().add_artist(centre_circle)
+plt.title("Doughnut Chart")
+plt.show()
+
+# Comparison IBM vs Amdocs
+plt.figure()
+plt.bar(['IBM','Amdocs'], [100,95])
+plt.title("IBM vs Amdocs Recruitment Comparison")
+plt.ylabel("No. of Hires")
+plt.show()
