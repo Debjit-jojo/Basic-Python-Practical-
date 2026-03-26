@@ -1,0 +1,31 @@
+# -------- Lab Assignment 1 --------
+nums = tuple(map(int, input("Enter integers separated by space: ").split()))
+
+print("\n--- Tuple Operations ---")
+print("Tuple:", nums)
+print("Total items:", len(nums))
+print("Last item:", nums[-1])
+print("Reversed tuple:", nums[::-1])
+print("Contains 5:", "Yes" if 5 in nums else "No")
+
+# Remove first and last, sort remaining
+if len(nums) > 2:
+    new_tuple = tuple(sorted(nums[1:-1]))
+    print("After removing first & last and sorting:", new_tuple)
+else:
+    print("Not enough elements to remove first and last")
+
+# -------- Lab Assignment 2 --------
+prices = tuple(map(int, input("\nEnter item prices separated by space: ").split()))
+
+print("\n--- Price Analysis ---")
+print("Prices:", prices)
+print("Total items sold:", len(prices))
+print("Cheapest item price:", min(prices))
+print("Costliest item price:", max(prices))
+print("Prices in ascending order:", tuple(sorted(prices)))
+
+# Count number of costliest items
+costliest = max(prices)
+count = prices.count(costliest)
+print("Number of costliest items sold:", count)
