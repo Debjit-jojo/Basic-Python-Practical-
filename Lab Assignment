@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# -------------------- LAB ASSIGNMENT 1 --------------------
+# -------------------- LAB ASSIGNMENT 1 ------------------
 
 # Sample cosmetic sales data
 months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
