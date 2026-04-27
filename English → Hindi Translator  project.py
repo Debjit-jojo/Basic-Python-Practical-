@@ -1,6 +1,5 @@
 # Install required libraries
 !pip -q install googletrans==4.0.0-rc1 ipywidgets
-
 import ipywidgets as widgets
 from IPython.display import display, HTML
 from googletrans import Translator
