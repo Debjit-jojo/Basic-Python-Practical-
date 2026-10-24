@@ -5,7 +5,6 @@
 int main() {
     char str[200];
     int vowels = 0, consonants = 0, spaces = 0, lowercase = 0;
-
     // -------- Lab Assignment 1 --------
     printf("Enter a string: ");
     fgets(str, sizeof(str), stdin);
